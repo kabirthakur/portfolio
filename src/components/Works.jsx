@@ -18,6 +18,8 @@ const ProjectCard = ({
   libraries,
   image,
   source_code_link,
+  link_labels,
+  links,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='flex sm:flex-row flex-col w-full p-4'>
@@ -31,7 +33,7 @@ const ProjectCard = ({
       >
         <div className='relative w-full sm:w-1/2 h-[300px]'>
           <img
-            src= {'.'+image}
+            src={'.'+image}
             alt='project_image'
             className='w-full h-full object-fill rounded-2xl'
           />
@@ -42,7 +44,7 @@ const ProjectCard = ({
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
+                src={'.'+github}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
@@ -54,8 +56,17 @@ const ProjectCard = ({
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{category}</p>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
-          <p className='mt-2 text-secondary text-[14px]'>{`Topics: ${topics}`}</p>
-          <p className='mt-2 text-secondary text-[14px]'>{`${libraries}`}</p>
+          <p className='mt-2'>
+            Links:{" "}
+            <a href={links.l1} target="_blank" rel="noreferrer">
+              {link_labels.label1}
+            </a>
+            ,{" "}
+            <a href={links.l2} target="_blank" rel="noreferrer">
+              {link_labels.label2}
+            </a>
+          </p>
+          {/* Rest of the code remains the same */}
         </div>
       </Tilt>
     </motion.div>
