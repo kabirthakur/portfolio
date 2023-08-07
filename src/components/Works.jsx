@@ -25,7 +25,7 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='flex sm:flex-row flex-col w-full p-4'>
       <Tilt
         options={{
-          max: 45,
+          max: 20,
           scale: 1,
           speed: 450,
         }}
