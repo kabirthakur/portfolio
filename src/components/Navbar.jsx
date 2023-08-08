@@ -49,6 +49,9 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+        <a href="https://www.linkedin.com/in/kabir-thakur/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -79,6 +82,9 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+        <a href="https://www.linkedin.com/in/kabir-thakur/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
