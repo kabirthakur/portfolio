@@ -20,16 +20,16 @@ const ProjectCard = ({
   links,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='flex sm:flex-row flex-col w-full p-4'>
+    <motion.div variants={fadeIn("up", "spring", index * 0.1, 0.75)} className='flex flex-wrap p-4'>
       <Tilt
         options={{
           max: 20,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-10 rounded-2xl w-full shadow-card flex sm:flex-row flex-col'
+        className='bg-tertiary p-10 rounded-2xl w-full shadow-card flex flex-wrap'
       >
-        <div className='relative w-full sm:w-1/2 h-[300px]'>
+        <div className='relative w-full sm:w-1/2 h-[300px] '>
           <img
             src={image}
             alt='project_image'
