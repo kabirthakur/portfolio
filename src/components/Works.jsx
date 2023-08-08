@@ -20,14 +20,14 @@ const ProjectCard = ({
   links,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.1, 0.75)} className='flex flex-wrap p-4'>
+    <motion.div variants={fadeIn("up", "spring", index * 0.1, 0.75)} className='flex sm:flex-row flex-col w-full p-4'>
       <Tilt
         options={{
           max: 20,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-10 rounded-2xl w-full shadow-card flex flex-wrap'
+        className='bg-tertiary p-10 rounded-2xl w-full shadow-card flex sm:flex-row flex-col'
       >
         <div className='relative w-full sm:w-1/2 h-[300px] '>
           <img
@@ -57,11 +57,11 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>Topics : {topics}</p>
           <p className='mt-2 text-secondary text-[14px]'>{`${libraries}`}</p>
           <p className='mt-2'>
-            Links:{" "}
+            Links :{" "}
             <a href={links.l1} target="_blank" rel="noreferrer">
               {link_labels.label1}
             </a>
-            ,{" "}
+            &nbsp; {" "}
             <a href={links.l2} target="_blank" rel="noreferrer">
               {link_labels.label2}
             </a>
