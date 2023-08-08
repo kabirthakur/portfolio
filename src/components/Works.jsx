@@ -55,6 +55,7 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{category}</p>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
           <p className='mt-2 text-secondary text-[14px]'>Topics : {topics}</p>
+          <p className='mt-2 text-secondary text-[14px]'>{`${libraries}`}</p>
           <p className='mt-2'>
             Links:{" "}
             <a href={links.l1} target="_blank" rel="noreferrer">
@@ -65,7 +66,7 @@ const ProjectCard = ({
               {link_labels.label2}
             </a>
           </p>
-          {/* Rest of the code remains the same */}
+          
         </div>
       </Tilt>
     </motion.div>
