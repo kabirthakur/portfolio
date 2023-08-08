@@ -7,8 +7,6 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const categories = ["All", "Machine Learning", "Deep Learning", "Data Analysis", "Computational Physics"];
-
 const ProjectCard = ({
   index,
   name,
@@ -56,6 +54,7 @@ const ProjectCard = ({
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{category}</p>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className='mt-2 text-secondary text-[14px]'>Topics : {topics}</p>
           <p className='mt-2'>
             Links:{" "}
             <a href={links.l1} target="_blank" rel="noreferrer">
