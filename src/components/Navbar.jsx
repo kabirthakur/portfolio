@@ -100,7 +100,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
-        <a href="https://github.com/kabirthakur/portfolio/blob/01b8f3ff47845ca6b873d4ec2f32d4d364209311/resume_n.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <a href="https://github.com/kabirthakur/portfolio/blob/main/resume_n.pdf" target="_blank" rel="noopener noreferrer">CV</a>
         </li>
             </ul>
           </div>
