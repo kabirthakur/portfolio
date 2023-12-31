@@ -15,8 +15,14 @@ import spam from "./spam.png";
 import fig1 from "./figure_1.png";
 import fig2 from "./figure_2.png";
 import model from "./model.png";
+import gomoku from "./gomoku.webp";
+import nst from "./nst.png";
+import skillspotter from "./skillspotter.png";
 
 export {
+  gomoku,
+  skillspotter,
+  nst,
   logo,
   logo1,
   comp_phy,

@@ -1,4 +1,7 @@
 import {
+    gomoku,
+    skillspotter,
+    nst,
     mobile,
     comp_phy,
     web,
@@ -58,6 +61,48 @@ import {
       },
       image: hmo, // replace with your image
       source_code_link: "https://github.com/kabirthakur/datascience/tree/main/HMO%20Project",
+    },
+    {
+      "name": "SkillSpotter: Mining Skills from Job Descriptions using NER",
+      "category": "NLP, NER, NLI, Transformers, BERT" ,
+      "description":"This paper presents ”SkillSpotter”, a novel approach to extracting and categorizing skills from job descriptions using advanced text mining techniques. Utilizing Named Entity Recognition (NER), the study leverages a fine-tuned BERT model that accurately identifies both general and specific technological and soft skills from a vast dataset of web-scraped job descriptions. The project addresses challenges in data sampling, annotation, and model optimization while considering the ethical implications of data usage and technology in human resource contexts. The findings offer valuable insights into job market trends and skill demands, highlighting the potential of NER in job recommendation systems.",
+      "topics": "Named Entity Recognition, BERT, Text Mining, Machine Learning, Data Cleaning, Data Sampling, Model Optimization, Job Market Trends Analysis, Skill Demand Analysis, Recommendation Systems, NLU, NLI, Data Transformation, Model Training and Inference, Skill Taxonomy Development, Data Annotation, Pattern Matching",
+      "libraries": "Python Libraries: PyTorch, transformers, spacy, NLTK, Pandas, datasets, seqeval, BeautifulSoup 4",
+      "link_labels": { "label1": "Project Repository", "label2": "Report" },
+      "links": {
+        "l1": "https://github.com/kabirthakur/datascience/tree/main/NER%20on%20Job%20Descriptions",
+        "l2": "https://github.com/kabirthakur/datascience/blob/main/NER%20on%20Job%20Descriptions/SkillSpotter_Report.pdf"
+      },
+      "image": skillspotter, // replace with generated image
+      "source_code_link": "https://github.com/kabirthakur/datascience/tree/main/NER%20on%20Job%20Descriptions"
+    },
+    {
+      "name": "Experiments In Neural Style Transfer",
+      "category": "Neural Style Transfer (NST), VGG19, AlexNet, Transfer Learning" ,
+      "description":"This paper explores the intersection of artificial intelligence and art by implementing and experimenting with Neural Style Transfer (NST) algorithms. The objective is to blend the content of one image with the artistic style of another, creating unique art pieces. It involves an in-depth investigation of various optimizers like Adam and L-BFGS and pre-trained neural network models, such as VGG19 and AlexNet, to evaluate their impact on NST outcomes. The aim of this paper is to explore the underlying mathematics of NST by manipulating the loss function and experimenting with hyperparameters to create a spectrum of stylized images. Through this project, the authors seek to understand how different neural network architectures and NST parameters contribute to the art generation process, with the ultimate goal of achieving a nuanced understanding of NST in artistic creation.",
+      "topics": "Neural Style Transfer (NST), PyTorch, Adam Optimizer, L-BFGS Optimizer, VGG19, AlexNet",
+      "libraries": "Python Libraries: PyTorch, torchvision, ",
+      "link_labels": { "label1": "Project Repository", "label2": "Report" },
+      "links": {
+        "l1": "https://github.com/kabirthakur/datascience/tree/main/Neural%20Style%20Transfer%20Experiments",
+        "l2": "https://github.com/kabirthakur/datascience/blob/main/Neural%20Style%20Transfer%20Experiments/Neural_Artistry_A_Journey_through_Style_Transfer.pdf"
+      },
+      "image": nst, // replace with generated image
+      "source_code_link": "https://github.com/kabirthakur/datascience/tree/main/Neural%20Style%20Transfer%20Experiments"
+    },
+    {
+      "name": "Gomoku Using a Value Neural Network",
+      "category": "Value Network, AI, CNN, GOMOKU, Heuristic Analysis" ,
+      "description":"This study introduces GomokuAI, an artificial intelligence designed to play the board game Gomoku. The AI combines hard-coded strategies with a neural network-based heuristic approach. Developed using a dataset from 2000 simulated games of minimax algorithm with alpha beta pruning playing against itself, the AI prioritizes winning moves, blocks opponent wins, and strategically responds to various game situations. The neural network, implemented using PyTorch, enhances the AI's decision-making capabilities. Initial results indicate that GomokuAI significantly outperforms minimax, achieving a win or draw rate of 60-70%. The paper suggests future improvements could include further model optimization and integration with advanced algorithms like Monte Carlo Tree Search. This research demonstrates the potential of combining traditional game strategies with machine learning techniques in game AI development.",
+      "topics": "AI, Neural Networks, CNN, Monte Carlo Tree Search",
+      "libraries": "Python Libraries: PyTorch ",
+      "link_labels": { "label1": "Project Repository", "label2": "Report" },
+      "links": {
+        "l1": "https://github.com/kabirthakur/datascience/tree/main/Gomoku%20using%20ConvNets",
+        "l2": "https://github.com/kabirthakur/datascience/blob/main/Gomoku%20using%20ConvNets/Report.pdf"
+      },
+      "image": gomoku, // replace with generated image
+      "source_code_link": "https://github.com/kabirthakur/datascience/tree/main/Gomoku%20using%20ConvNets"
     },
     {
       name: "Dynamic Human AI Collaboration",
