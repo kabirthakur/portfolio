@@ -52,6 +52,9 @@ const Navbar = () => {
         <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
         <a href="https://www.linkedin.com/in/kabir-thakur/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </li>
+        <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+        <a href="https://github.com/kabirthakur" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -63,8 +66,9 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+        
         <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
-        <a href="https://github.com/kabirthakur/portfolio/blob/main/resume_n.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <a href="https://github.com/kabirthakur/portfolio/blob/main/resume_kabir_thakur.pdf" target="_blank" rel="noopener noreferrer">CV</a>
         </li>
         </ul>
 
@@ -85,6 +89,9 @@ const Navbar = () => {
             <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
         <a href="https://www.linkedin.com/in/kabir-thakur/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </li>
+        <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+        <a href="https://github.com/kabirthakur" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
@@ -100,7 +107,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
-        <a href="https://github.com/kabirthakur/portfolio/blob/main/resume_n.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        <a href="https://github.com/kabirthakur/portfolio/blob/main/resume_kabir_thakur.pdf" target="_blank" rel="noopener noreferrer">CV</a>
         </li>
             </ul>
           </div>
