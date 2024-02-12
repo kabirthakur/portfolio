@@ -13,6 +13,7 @@ import {
     fig1,
     fig2,
     model,
+    datae,
   } from "../assets";
 
   export const navLinks = [
@@ -34,6 +35,10 @@ import {
     {
       title: "Data Scientist",
       icon: web,
+    },
+    {
+      title: "Data Engineer",
+      icon: datae,
     },
     {
       title: "Data Analyst",

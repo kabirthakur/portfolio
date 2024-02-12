@@ -17,6 +17,7 @@ import fig2 from "./figure_2.png";
 import model from "./model.png";
 import gomoku from "./gomoku.webp";
 import nst from "./nst.png";
+import datae from "./data_engineer.png"
 import skillspotter from "./skillspotter.png";
 
 export {
@@ -38,5 +39,6 @@ export {
   spam,
   fig1,
   fig2,
-  model
+  model,
+  datae
 };
