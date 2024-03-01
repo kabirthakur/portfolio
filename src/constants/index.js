@@ -84,7 +84,7 @@ import {
     },
     {
       "name": "Analysis of Cancelled Netflix Shows",
-      "category": ["Data Analysis, Data Engineering"],
+      "category": ["Data Analysis", "Data Engineering"],
       "description":
         "This project examines the reasons behind the cancellation of Netflix shows, leveraging MongoDB for efficient data storage and PySpark for scalable data processing. The goal is to develop a scalable framework to analyse hypothesis and uncover trends affecting show longevity. The project employs statistical analysis and visualization techniques to explore the correlation between show characteristics and their cancellations, aiming to derive actionable insights for content strategy optimization in digital streaming platforms.",
       "topics": "Data Collection, Data Cleaning, Exploratory Data Analysis, Statistical Analysis, Trend Analysis, Predictive Modeling, Visualization, Ratings Analysis, Big Data Processing, NoSQL Database Management",
