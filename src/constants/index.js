@@ -14,6 +14,7 @@ import {
     fig2,
     model,
     datae,
+    ratings
   } from "../assets";
 
   export const navLinks = [
@@ -80,6 +81,20 @@ import {
       },
       "image": skillspotter, // replace with generated image
       "source_code_link": "https://github.com/kabirthakur/datascience/tree/main/NER%20on%20Job%20Descriptions"
+    },
+    {
+      "name": "Analysis of Cancelled Netflix Shows",
+      "category": ["Data Analysis, Data Engineering"],
+      "description":
+        "This project examines the reasons behind the cancellation of Netflix shows, leveraging MongoDB for efficient data storage and PySpark for scalable data processing. The goal is to develop a scalable framework to analyse hypothesis and uncover trends affecting show longevity. The project employs statistical analysis and visualization techniques to explore the correlation between show characteristics and their cancellations, aiming to derive actionable insights for content strategy optimization in digital streaming platforms.",
+      "topics": "Data Collection, Data Cleaning, Exploratory Data Analysis, Statistical Analysis, Trend Analysis, Predictive Modeling, Visualization, Ratings Analysis, Big Data Processing, NoSQL Database Management",
+      "libraries": "Python Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, PySpark; Database: MongoDB",
+      "link_labels": {"label1": "GitHub Repository", "label2":"Project Report"},
+      "links": {
+        "l1": "hhttps://github.com/kabirthakur/datascience/tree/main/Netflix%20Cancelled%20Shows%20Analysis"
+      },
+      "image": ratings, // Replace with your image
+      "source_code_link": "https://github.com/YourGitHub/NetflixCancellationAnalysis"
     },
     {
       "name": "Experiments In Neural Style Transfer",
