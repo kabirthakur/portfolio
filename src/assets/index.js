@@ -19,7 +19,7 @@ import gomoku from "./gomoku.webp";
 import nst from "./nst.png";
 import datae from "./data_engineer.png"
 import skillspotter from "./skillspotter.png";
-import ratings from "./ratings_trends.png";
+import ratings from "./rating_trends.png";
 export {
   gomoku,
   skillspotter,
