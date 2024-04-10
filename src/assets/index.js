@@ -20,6 +20,12 @@ import nst from "./nst.png";
 import datae from "./data_engineer.png"
 import skillspotter from "./skillspotter.png";
 import ratings from "./rating_trends.png";
+import su from "./su.png";
+import snu from "./snu.jpeg";
+import happyplus from "./happyplus.png";
+import halocap from "./halocap.png";
+import cupb from "./cupb.png";
+
 export {
   gomoku,
   skillspotter,
@@ -41,5 +47,10 @@ export {
   fig2,
   model,
   datae,
-  ratings
+  ratings,
+  su,
+  snu,
+  happyplus,
+  halocap,
+  cupb,
 };

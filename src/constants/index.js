@@ -14,7 +14,12 @@ import {
     fig2,
     model,
     datae,
-    ratings
+    ratings,
+    halocap,
+    su,
+    snu,
+    cupb,
+    happyplus,
   } from "../assets";
 
   export const navLinks = [
@@ -226,4 +231,92 @@ import {
     
     
   ];
-  export { services, projects }; //technologies, experiences, testimonials
+  const experiences = [
+    {
+      title: "BS Physics",
+      company_name: "Shiv Nadar University, India",
+      icon: snu,
+      iconBg: "#383E56",
+      date: "September 2014 - May 2018",
+      points: [
+        "Undergraduate physics and math with a lot of python programming and interdisciplinary courses.",
+        "Final Year Thesis - Parity Time Symmetric Hamiltonians and Optical Structures.",
+      ],
+      
+    },
+    // {
+    //   title: "Data Analyst",
+    //   company_name: "Halo Capital Management, US (Remote)",
+    //   icon: halocap,
+    //   iconBg: "#E6DEDD",
+    //   date: "Mar 2019 - Mar 2020",
+    //   points: [
+    //     "Engineered pipeline automating news data collection on stocks from RESTful API sources, storing 10,000+ articles monthly.",
+    //     "Led sentiment analysis on the aggregated news dataset using NLP techniques, quantifying market sentiment trends and their impact on 50+ key stock performances.",
+    //     "Backtested ETF trading strategies using QuantConnect in Python analyzing 20 years of historical data lowering drawdown by 8%.",
+    //   ],
+    // },
+    // {
+    //   title: "Data Analyst",
+    //   company_name: "HappyPlus, Mumbai, India",
+    //   icon: happyplus,
+    //   iconBg: "#383E56",
+    //   date: "April 2020 - May 2021",
+    //   points: [
+    //     "Automated extraction and streamlined preprocessing of monthly survey data from JSON objects, cutting prep time by 30%.",
+    //     "Conducted detailed statistical analysis, Cronbach's reliability test and hypothesis tests to understand employee needs.",
+    //     "Implemented NLP pipeline for sentiment analysis on 10,000+ employee feedback ensuring smooth transition to remote work.",
+    //     "Created visualizations using Apache ECharts for survey and sentiment analysis, boosting employee satisfaction by 20%.",
+    //   ],
+    // },
+    {
+      title: "MS Computational Physics",
+      company_name: "Central University of Punjab, India",
+      icon: cupb,
+      iconBg: "#E6DEDD",
+      date: "Nov 2020 - June 2022",
+      points: [
+        "Graduate level physics courses, quantum chemistry, molecular simulations and docking. Deep Learning for physics.",
+        "Thesis - Phase Separation Dynamics of Metallic Glasses - Solving Cahn Hilliard partital differential equation.",
+        "MATLAB, Bash, Fourier Analysis",
+      ],
+    },
+    {
+      title: "MS Data Science",
+      company_name: "Syracuse University, USA",
+      icon: su,
+      iconBg: "#E6DEDD",
+      date: "Sep 2022 - May 2024",
+      points: [
+        "Deep dive into Machine Learning, Deep Learning, Natural Language Processing.",
+        "Facilitated an average grade improvement of 25% among tutored students by developing tailored learning strategies.",
+      ],
+    },
+    {
+      title: "Tutor for Student Athletes",
+      company_name: "Stevenson Educational Center, Syracuse University, USA",
+      icon: su,
+      iconBg: "#383E56",
+      date: "Aug 2023 - May 2024",
+      points: [
+        "Tutored 12 undergraduate student athletes in courses on Data Analytics in R, probability, statistics, and calculus.",
+        "Facilitated an average grade improvement of 25% among tutored students by developing tailored learning strategies.",
+      ],
+    },
+    {
+      title: "Data Science Researcher",
+      company_name: "Decision Science, Jaypee Morgan, London",
+      icon: su,
+      iconBg: "#383E56",
+      date: "Feb 2023 - Jun 2024",
+      points: [
+        "Collaborated with 2 members to integrate algorithmic decision making with expert opinions using a Bayesian Framework.",
+        "Tested 5 different methods of sharing information between human experts and ML models monitoring performance indicators.",
+        "Showcased superior performance of information sharing through Bayesian learning by improving F1 score by 7%.",
+        "Built a deferral system where algorithms can defer to expert when they have low confidence in an outcome.",
+        "Co-Authored a peer reviewed tiny paper with the team for ICLR 23 - (https://openreview.net/pdf?id=Muwb2KohnX)",
+      ],
+      url: "https://openreview.net/pdf?id=Muwb2KohnX",
+    },
+  ];
+  export { services, projects,experiences }; //technologies, experiences, testimonials
