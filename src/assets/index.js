@@ -25,6 +25,7 @@ import snu from "./snu.jpeg";
 import happyplus from "./happyplus.png";
 import halocap from "./halocap.png";
 import cupb from "./cupb.png";
+import jp from "./jp.jpeg"
 
 export {
   gomoku,
@@ -53,4 +54,5 @@ export {
   happyplus,
   halocap,
   cupb,
+  jp,
 };

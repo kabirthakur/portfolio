@@ -20,6 +20,7 @@ import {
     snu,
     cupb,
     happyplus,
+    jp,
   } from "../assets";
 
   export const navLinks = [
@@ -306,7 +307,7 @@ import {
     {
       title: "Data Science Researcher",
       company_name: "Decision Science, Jaypee Morgan, London",
-      icon: su,
+      icon: jp,
       iconBg: "#383E56",
       date: "Feb 2023 - Jun 2024",
       points: [
