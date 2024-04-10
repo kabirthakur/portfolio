@@ -306,7 +306,7 @@ import {
     },
     {
       title: "Data Science Researcher",
-      company_name: "Decision Science, Jaypee Morgan, London",
+      company_name: "Decision Science, JP Morgan Chase & Co., London",
       icon: jp,
       iconBg: "#383E56",
       date: "Feb 2023 - Jun 2024",
