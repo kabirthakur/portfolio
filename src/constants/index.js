@@ -15,11 +15,9 @@ import {
     model,
     datae,
     ratings,
-    halocap,
     su,
     snu,
     cupb,
-    happyplus,
     jp,
   } from "../assets";
 
@@ -40,19 +38,19 @@ import {
   
   const services = [
     {
-      title: "Data Scientist",
+      title: "AI & agent systems",
       icon: web,
     },
     {
-      title: "Data Engineer",
+      title: "Data engineering",
       icon: datae,
     },
     {
-      title: "Data Analyst",
+      title: "ML, LLMs & NLP",
       icon: mobile,
     },
     {
-      title: "Computational Physicist",
+      title: "Production & rigor",
       icon: comp_phy,
     },
   ];
@@ -97,7 +95,7 @@ import {
       "libraries": "Python Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, PySpark; Database: MongoDB",
       "link_labels": {"label1": "GitHub Repository", "label2":"Project Report"},
       "links": {
-        "l1": "hhttps://github.com/kabirthakur/datascience/tree/main/Netflix%20Cancelled%20Shows%20Analysis"
+        "l1": "https://github.com/kabirthakur/datascience/tree/main/Netflix%20Cancelled%20Shows%20Analysis"
       },
       "image": ratings, // Replace with your image
       "source_code_link": "https://github.com/YourGitHub/NetflixCancellationAnalysis"
@@ -232,92 +230,79 @@ import {
     
     
   ];
+  /** Oldest → newest. Overlapping roles (degree + research + tutoring) stay in true start-date order. */
   const experiences = [
     {
-      title: "BS Physics",
+      id: "edu-snu-bs",
+      title: "B.S. Physics",
       company_name: "Shiv Nadar University, India",
       icon: snu,
       iconBg: "#383E56",
-      date: "September 2014 - May 2018",
+      date: "Sep 2014 – May 2018",
       points: [
-        "Undergraduate physics and math with a lot of python programming and interdisciplinary courses.",
-        "Final Year Thesis - Parity Time Symmetric Hamiltonians and Optical Structures.",
+        "Physics and math with a strong programming thread—Python for simulations, labs, and small projects across disciplines.",
+        "Thesis on parity–time symmetric Hamiltonians and optical structures.",
       ],
-      
     },
-    // {
-    //   title: "Data Analyst",
-    //   company_name: "Halo Capital Management, US (Remote)",
-    //   icon: halocap,
-    //   iconBg: "#E6DEDD",
-    //   date: "Mar 2019 - Mar 2020",
-    //   points: [
-    //     "Engineered pipeline automating news data collection on stocks from RESTful API sources, storing 10,000+ articles monthly.",
-    //     "Led sentiment analysis on the aggregated news dataset using NLP techniques, quantifying market sentiment trends and their impact on 50+ key stock performances.",
-    //     "Backtested ETF trading strategies using QuantConnect in Python analyzing 20 years of historical data lowering drawdown by 8%.",
-    //   ],
-    // },
-    // {
-    //   title: "Data Analyst",
-    //   company_name: "HappyPlus, Mumbai, India",
-    //   icon: happyplus,
-    //   iconBg: "#383E56",
-    //   date: "April 2020 - May 2021",
-    //   points: [
-    //     "Automated extraction and streamlined preprocessing of monthly survey data from JSON objects, cutting prep time by 30%.",
-    //     "Conducted detailed statistical analysis, Cronbach's reliability test and hypothesis tests to understand employee needs.",
-    //     "Implemented NLP pipeline for sentiment analysis on 10,000+ employee feedback ensuring smooth transition to remote work.",
-    //     "Created visualizations using Apache ECharts for survey and sentiment analysis, boosting employee satisfaction by 20%.",
-    //   ],
-    // },
     {
-      title: "MS Computational Physics",
+      id: "edu-cupb-ms",
+      title: "M.S. Computational Physics",
       company_name: "Central University of Punjab, India",
       icon: cupb,
       iconBg: "#E6DEDD",
-      date: "Nov 2020 - June 2022",
+      date: "Nov 2020 – Jun 2022",
       points: [
-        "Graduate level physics courses, quantum chemistry, molecular simulations and docking. Deep Learning for physics.",
-        "Thesis - Phase Separation Dynamics of Metallic Glasses - Solving Cahn Hilliard partital differential equation.",
-        "MATLAB, Bash, Fourier Analysis",
+        "Coursework and research spanning quantum chemistry, molecular simulation, docking, and physics-flavored deep learning.",
+        "Thesis: phase separation in metallic glasses via the Cahn–Hilliard equation—finite-difference and spectral methods in MATLAB, plus Fourier analysis and scripting in Bash.",
       ],
     },
     {
-      title: "MS Data Science",
+      id: "edu-su-msds",
+      title: "M.S. Data Science",
       company_name: "Syracuse University, USA",
       icon: su,
       iconBg: "#E6DEDD",
-      date: "Sep 2022 - May 2024",
+      date: "Sep 2022 – May 2024",
       points: [
-        "Deep dive into Machine Learning, Deep Learning, Natural Language Processing.",
-        "Facilitated an average grade improvement of 25% among tutored students by developing tailored learning strategies.",
+        "Depth in ML, deep learning, and NLP—framed as reproducible experiments, clear evaluation, and honest writeups.",
       ],
     },
     {
-      title: "Tutor for Student Athletes",
-      company_name: "Stevenson Educational Center, Syracuse University, USA",
-      icon: su,
-      iconBg: "#383E56",
-      date: "Aug 2023 - May 2024",
-      points: [
-        "Tutored 12 undergraduate student athletes in courses on Data Analytics in R, probability, statistics, and calculus.",
-        "Facilitated an average grade improvement of 25% among tutored students by developing tailored learning strategies.",
-      ],
-    },
-    {
+      id: "work-jpmc-ds",
       title: "Data Science Researcher",
-      company_name: "Decision Science, JP Morgan Chase & Co., London",
+      company_name: "Decision Science · JPMorgan Chase, London",
       icon: jp,
       iconBg: "#383E56",
-      date: "Feb 2023 - Jun 2024",
+      date: "Feb 2023 – Jun 2024",
       points: [
-        "Collaborated with 2 members to integrate algorithmic decision making with expert opinions using a Bayesian Framework.",
-        "Tested 5 different methods of sharing information between human experts and ML models monitoring performance indicators.",
-        "Showcased superior performance of information sharing through Bayesian learning by improving F1 score by 7%.",
-        "Built a deferral system where algorithms can defer to expert when they have low confidence in an outcome.",
-        "Co-Authored a peer reviewed tiny paper with the team for ICLR 23 - (https://openreview.net/pdf?id=Muwb2KohnX)",
+        "Research on human-in-the-loop systems: Bayesian updates that blend model scores with expert judgment, including deferral when the model should hand off.",
+        "Compared several ways for experts and models to share information; the strongest scheme moved F1 by about seven points on the benchmarks we cared about.",
       ],
+      linkLabel: "ICLR Tiny Paper (2023)",
       url: "https://openreview.net/pdf?id=Muwb2KohnX",
+    },
+    {
+      id: "work-su-tutor",
+      title: "Academic tutor (student athletes)",
+      company_name: "Stevenson Educational Center · Syracuse University",
+      icon: su,
+      iconBg: "#232631",
+      date: "Aug 2023 – May 2024",
+      points: [
+        "Supported ~12 undergraduates in data analytics with R, probability, statistics, and calculus—meeting people where they were and building durable intuition, not just answers.",
+      ],
+    },
+    {
+      id: "work-abacus-ae",
+      title: "AI Engineer",
+      company_name: "Abacus",
+      icon: datae,
+      iconBg: "#232631",
+      date: "Jul 2024 – Present",
+      points: [
+        "Build multi-agent data pipelines that run from fuzzy requirements through orchestration, validation, and clean handoff to analytics and ML consumers.",
+        "Own agent behavior: tools, guardrails, and operational patterns so workflows stay reliable and auditable in production.",
+      ],
     },
   ];
   export { services, projects,experiences }; //technologies, experiences, testimonials

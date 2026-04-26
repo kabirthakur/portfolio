@@ -50,18 +50,28 @@ const ExperienceCard = ({ experience }) => {
         >
           {experience.company_name}
         </p>
+        {experience.url ? (
+          <a
+            href={experience.url}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='mt-2 inline-block text-[13px] font-medium text-[#915EFF] hover:text-[#b794ff] transition-colors'
+          >
+            {experience.linkLabel ?? "Link"}
+          </a>
+        ) : null}
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
+      <div className='mt-5 space-y-3'>
         {experience.points.map((point, index) => (
-          <li
+          <p
             key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
+            className='text-white-100 text-[14px] leading-relaxed tracking-wide border-l-2 border-[#915EFF]/35 pl-4'
           >
             {point}
-          </li>
+          </p>
         ))}
-      </ul>
+      </div>
     </VerticalTimelineElement>
   );
 };
@@ -71,18 +81,18 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          Background
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Academic and Work Experience.
+          Experience & education
         </h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
+        <VerticalTimeline lineColor='#3f3a55'>
           {experiences.map((experience, index) => (
             <ExperienceCard
-              key={`experience-${index}`}
+              key={experience.id ?? `experience-${index}`}
               experience={experience}
             />
           ))}

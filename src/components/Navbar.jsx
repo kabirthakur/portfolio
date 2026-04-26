@@ -42,9 +42,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-20 h-20 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Kabir Thakur 
+          <img src={logo} alt='logo' className='w-20 h-20 object-contain invert' />
+          <p className='text-white text-[18px] font-bold cursor-pointer flex flex-wrap items-baseline gap-2'>
+            <span>Kabir Thakur</span>
+            <span className='text-secondary text-[14px] font-semibold tracking-wide'>
+              AI Engineer
+            </span>
           </p>
         </Link>
 

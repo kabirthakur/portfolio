@@ -25,9 +25,10 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Kabir Thakur</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I mine gold from data mountains,  <br className='sm:block hidden' />
-            crafting nuggets of knowledge that drive strategic decisions
+          <p className={`${styles.heroSubText} mt-2 text-white-100 max-w-2xl`}>
+            AI Engineer building agentic systems and data platforms.{" "}
+            <br className='sm:block hidden' />
+            I ship end-to-end: from orchestration and models to reliable pipelines in production.
           </p>
         </div>
       </div>

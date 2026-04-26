@@ -40,21 +40,20 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         
-      <h2 className={`${styles.sectionHeadText} text-center`}>About me</h2>
+      <h2 className={`${styles.sectionHeadText} text-center`}>About</h2>
 
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] text-center leading-[30px]'
+        className='mt-4 text-secondary text-[17px] text-center leading-[30px] max-w-4xl mx-auto'
       >
-        {/* <p className='text-center mx-auto max-w-xl'> */}
-        I'm a proficient Data Scientist and Computational Physicist. I have deep knowledge in Python, R, and SQL, and 
-        advanced proficiency in tools like TensorFlow, PyTorch, and PySpark. Leveraging my physics background, 
-        I bring a unique analytical perspective to decode complex data patterns. I am adept at swiftly integrating
-        new concepts and working collaboratively with clients to design efficient, scalable, and insightful 
-        solutions that tackle complex real-world problems. Let's join forces to translate your data into actionable insights!
-        {/* </p> */}
+        I'm an AI Engineer at Abacus, where I design and deploy agent teams that execute data engineering
+        work—ingestion, transformation, validation, and operational handoff—so organizations get trustworthy data at scale.
+        My background spans computational physics and graduate data science, which shapes how I reason about models,
+        uncertainty, and production constraints. I work across the stack: LLM-powered agents and orchestration, Python
+        services, distributed data tooling (e.g. Spark), and the interfaces that make systems observable and maintainable.
+        If you're building serious AI on serious data, I'd like to hear what you're shipping.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap justify-center gap-10'>

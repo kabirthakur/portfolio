@@ -84,16 +84,14 @@ const Works = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-center">
-      <p className={`${styles.sectionSubText}`}>My work</p>
-      <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+      <p className={`${styles.sectionSubText}`}>Selected work</p>
+      <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
 
       <div className='w-full flex flex-col items-center'>
         <p className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          Following projects showcase my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          A sample of research and applied work across NLP, deep learning, large-scale data,
+          and rigorous modeling—foundations I bring to agentic systems and production data platforms today.
+          Each entry links to code or write-ups where available.
         </p>
       </div>
     <br></br>
