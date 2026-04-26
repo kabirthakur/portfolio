@@ -90,7 +90,7 @@ const Experience = () => {
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline lineColor='#3f3a55'>
-          {experiences.map((experience, index) => (
+          {[...experiences].reverse().map((experience, index) => (
             <ExperienceCard
               key={experience.id ?? `experience-${index}`}
               experience={experience}
