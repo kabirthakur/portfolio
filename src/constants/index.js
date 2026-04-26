@@ -50,7 +50,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Production & rigor",
+      title: "Distributed data processing",
       icon: comp_phy,
     },
   ];
